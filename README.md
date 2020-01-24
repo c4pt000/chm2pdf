@@ -1,5 +1,5 @@
 
-apt install libchm-dev libchm-bin
+apt install libchm-dev libchm-bin htmldoc
 <br>
 cd chm2pdf
 <br>
@@ -11,8 +11,12 @@ python setup.py install
 <br>
 cd ..
 <br>
-python setup.py install
+python setup.py install 
 <br>
+git clone https://github.com/c4pt000/CHMLib
+cd CHMLib
+autoreconf -i
+autoconf
 
 optional according to chm2pdf
 https://github.com/c4pt000/beautifulsoup
