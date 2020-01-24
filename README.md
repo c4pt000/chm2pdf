@@ -1,3 +1,19 @@
+
+apt install libchm-dev
+<br>
+cd chm2pdf
+<br>
+git clone https://github.com/c4pt000/pychm
+<br>
+cd pychm
+<br>
+python setup.py install
+<br>
+cd ..
+<br>
+python setup.py install
+<br>
+
 chm2pdf
 =======
 A Python script that converts a CHM file into a single PDF file.
