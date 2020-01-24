@@ -21,8 +21,6 @@ cd CHMLib
 autoreconf -i
 <br>
 autoconf
-
-
 <br>
 optional according to chm2pdf
 <br>
@@ -30,6 +28,7 @@ https://github.com/c4pt000/beautifulsoup
 
 <br>
 
+chm2pdf --continuous input.chm output.pdf   
 
 chm2pdf --book input.chm output.pdf
 
