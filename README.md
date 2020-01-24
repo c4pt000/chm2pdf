@@ -25,6 +25,7 @@ autoconf
 
 <br>
 optional according to chm2pdf
+<br>
 https://github.com/c4pt000/beautifulsoup
 
 <br>
