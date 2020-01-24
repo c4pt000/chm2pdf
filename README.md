@@ -1,5 +1,5 @@
 
-apt install libchm-dev
+apt install libchm-dev libchm-bin
 <br>
 cd chm2pdf
 <br>
