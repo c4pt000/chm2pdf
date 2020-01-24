@@ -17,6 +17,11 @@ python setup.py install
 optional according to chm2pdf
 https://github.com/c4pt000/beautifulsoup
 
+
+
+
+chm2pdf --book input.chm output.pdf
+
 chm2pdf
 =======
 A Python script that converts a CHM file into a single PDF file.
