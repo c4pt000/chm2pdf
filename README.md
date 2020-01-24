@@ -14,14 +14,20 @@ cd ..
 python setup.py install 
 <br>
 git clone https://github.com/c4pt000/CHMLib
+<br>
+
 cd CHMLib
+<br>
 autoreconf -i
+<br>
 autoconf
 
+
+<br>
 optional according to chm2pdf
 https://github.com/c4pt000/beautifulsoup
 
-
+<br>
 
 
 chm2pdf --book input.chm output.pdf
